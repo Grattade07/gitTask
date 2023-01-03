@@ -1,5 +1,7 @@
-//Program prints "Hello World!"
+//Program gets user input then prints it
 
-function printHelloWorld() {
-    console.log("Git is Awesome!")
+function printUserInput() {
+    let userInput = prompt("What would you like to say?")
+
+    console.log(userInput)
 }
